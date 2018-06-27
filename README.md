@@ -19,7 +19,6 @@ Tiny and Powerful Library for limit an entry (text box,input) as a `number` or `
   - [x] Integer
   - [ ] String
   - [ ] Alphabet (english,farsi:persian,arabic,china,...)
-  - [ ] EnAlphabet
   - [ ] Any (any char or empty)
   - [ ] !Any (any char , not empty)
 
