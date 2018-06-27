@@ -1,6 +1,5 @@
 # FilterInput
-Tiny and Powerful Library for limit an entry (text box,input) as a `number` or `string`.
-
+Tiny and Powerful Library for limit an entry (text box,input) as `number`,`string` or more...
 
 ![FilterInput.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1%3KB-blue.svg) ![FilterInput.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-Check-green.svg)
 
