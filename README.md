@@ -61,7 +61,7 @@ Integer :
 
 #### data-filter-lang
 
-__soon will be complete.__
+soon will be complete.
 
 You can choose multiple languages.
 Separate them with `,`.
