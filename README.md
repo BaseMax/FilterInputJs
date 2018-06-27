@@ -59,7 +59,7 @@ Integer :
 <input data-filter="integer" value="91">
 ```
 
-#### data-filter-lang
+#### `data-filter-lang`
 
 soon will be complete.
 
