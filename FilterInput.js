@@ -72,6 +72,7 @@
 						element.setAttribute("type","number")
 					}
 				break;
+				/*
 				case "string":
 					if(tag == "input")
 					{
@@ -81,7 +82,6 @@
 						element.setAttribute("type","text")
 					}
 				break;
-				/*
 				case "any":
 					if(tag == "input")
 					{
