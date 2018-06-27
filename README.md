@@ -59,11 +59,6 @@ Integer :
 <input data-filter="integer" value="91">
 ```
 
-```
-String :
-<input data-filter="string" value="hello $world?!">
-```
-
 #### data-filter-lang
 
 __soon will be complete.__
