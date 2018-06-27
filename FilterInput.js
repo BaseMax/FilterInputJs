@@ -20,6 +20,34 @@
 	**/
 	var exec=function(element)
 	{
+		function exec_decimal(event)
+		{
+			this.value=this.value.replace(/[^0-9\.]/g,'');
+			if((event.which != 46 || this.value.indexOf('.') != -1) && (event.which < 48 || event.which > 57))
+			{
+				event.preventDefault();
+			}
+		}
+		function exec_integer(event)
+		{
+			this.value=this.value.replace(/[^\d].+/,'');
+			if((event.which < 48 || event.which > 57))
+			{
+				event.preventDefault();
+			}
+		}
+		function exec_string(event)
+		{
+			//soon
+		}
+		function exec_any(event)
+		{
+			//soon
+		}
+		function exec_any_empty(event)
+		{
+			//soon
+		}
 		if(element.hasAttribute("data-filter"))
 		{
 			var tag=(element.tagName).toLowerCase();
@@ -28,16 +56,51 @@
 			{
 				case "decimal":
 					if(tag == "input")
+					{
+						element.addEventListener("blur",exec_decimal);
+						element.addEventListener("keypress",exec_decimal);
+						element.addEventListener("keyup",exec_decimal);
 						element.setAttribute("type","number")
+					}
 				break;
 				case "integer":
 					if(tag == "input")
+					{
+						element.addEventListener("blur",exec_integer);
+						element.addEventListener("keypress",exec_integer);
+						element.addEventListener("keyup",exec_integer);
 						element.setAttribute("type","number")
+					}
 				break;
 				case "string":
 					if(tag == "input")
+					{
+						element.addEventListener("blur",exec_string);
+						element.addEventListener("keypress",exec_string);
+						element.addEventListener("keyup",exec_string);
 						element.setAttribute("type","text")
+					}
 				break;
+				/*
+				case "any":
+					if(tag == "input")
+					{
+						element.addEventListener("blur",exec_any);
+						element.addEventListener("keypress",exec_any);
+						element.addEventListener("keyup",exec_any);
+						element.setAttribute("type","text")
+					}
+				break;
+				case "!any":
+					if(tag == "input")
+					{
+						element.addEventListener("blur",exec_any_empty);
+						element.addEventListener("keypress",exec_any_empty);
+						element.addEventListener("keyup",exec_any_empty);
+						element.setAttribute("type","text")
+					}
+				break;
+				*/
 			}
 		}
 	};
@@ -67,7 +130,7 @@
 		data_items = document.querySelectorAll("[data-filter]");
 		data_items.forEach(function(item)
 		{
-			window.filter.exec(this);
+			window.filter.exec(item);
 		});
 	},false);
 }(window,document));
