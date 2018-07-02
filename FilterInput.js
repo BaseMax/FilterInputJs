@@ -52,6 +52,14 @@
 		{
 			var tag=(element.tagName).toLowerCase();
 			var filter=element.getAttribute("data-filter");
+			var require=false;
+			///////////////////////////////////////////////
+			if(filter.startsWith("!"))
+			{
+				filter=filter.substr(1);
+				require=true;
+			}
+			///////////////////////////////////////////////
 			switch(filter)
 			{
 				case "decimal":
@@ -102,6 +110,10 @@
 				break;
 				*/
 			}
+			if(require == true)
+				element.setAttribute("require","required")
+			else
+				element.removeAttribute("require")
 		}
 	};
 	/**
