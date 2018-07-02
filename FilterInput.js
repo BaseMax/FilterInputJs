@@ -111,9 +111,9 @@
 				*/
 			}
 			if(require == true)
-				element.setAttribute("require","required")
+				element.setAttribute("required","required")
 			else
-				element.removeAttribute("require")
+				element.removeAttribute("required")
 		}
 	};
 	/**
