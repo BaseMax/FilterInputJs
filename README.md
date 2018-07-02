@@ -15,9 +15,9 @@ Tiny and Powerful Library for limit an entry (text box,input) as `number`,`strin
 ## Filters
 
   - [x] Decimal
-  - [ ] !Decimal (a decimal , not empty)
+  - [x] !Decimal (a decimal , not empty)
   - [x] Integer
-  - [ ] !Integer (a integer , not empty)
+  - [x] !Integer (a integer , not empty)
   - [ ] String (any character , no number)
   - [ ] !String (a string , not empty)
   - [ ] Alphabet (english,farsi:persian,arabic,china,...)
