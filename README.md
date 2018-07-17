@@ -1,7 +1,12 @@
 # FilterInput
+
+<p align="center">
+  <img alt="FilterInput" src="https://raw.githubusercontent.com/BaseMax/FilterInputJs/master/image.jpg">
+</p>
+
 Tiny and Powerful Library for limit an entry (text box,input) as `number`,`string` or more...
 
-![FilterInput.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1%3KB-blue.svg) ![FilterInput.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-Check-green.svg)
+![FilterInput.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1.3KB-blue.svg) ![FilterInput.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-Check-green.svg)
 
 
 ## Features 
