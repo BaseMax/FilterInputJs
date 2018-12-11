@@ -16,7 +16,6 @@ Tiny and Powerful Library for limit an entry (text box,input) as `number`,`strin
   - No dependencies
   - Easy using Filters
 
-
 ## Filters
 
   - [x] Decimal
@@ -38,15 +37,12 @@ currently , only work on `<input>` tag.
   - [ ] textarea
   - [ ] select
   
-
-
 ## Arguments 
 
 | Argument Name  | Goal |
 | ------------- | ------------- |
 | data-filter  	| Set type of Filter for a <input> tag |
 | data-filter-lang  	| Restrict allowed languages (soon) |
-
 
 ## Samples
 
