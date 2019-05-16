@@ -72,4 +72,4 @@ soon will be complete.
 
 # License
 
-FilterInput is licensed under the [GNU General Public License](https://github.com/BaseMax/FilterInputJs/blob/master/LICENSE).
+FilterInput is licensed under the [GNU General Public License](LICENSE).
