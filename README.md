@@ -18,6 +18,12 @@ Add the following line to your `.html` file:
 
 or download the [minified file](https://raw.githubusercontent.com/BaseMax/FilterInputJs/master/dist/index.min.js)
 
+## Install
+
+```
+npm i filterinput
+```
+
 ## Features
 
 - Fast
