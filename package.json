@@ -1,0 +1,29 @@
+{
+  "name": "filterinputjs",
+  "version": "1.0.0",
+  "description": "Tiny and Powerful Library for limit an entry (text box,input) as number,string or more...",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack --watch --mode development",
+    "build": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseMax/FilterInputJs.git"
+  },
+  "keywords": [
+    "validation",
+    "form-validator"
+  ],
+  "author": "BaseMax",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BaseMax/FilterInputJs/issues"
+  },
+  "homepage": "https://github.com/BaseMax/FilterInputJs#readme",
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
