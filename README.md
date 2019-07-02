@@ -20,6 +20,8 @@ or download the [minified file](https://raw.githubusercontent.com/BaseMax/Filter
 
 ## Install
 
+This package available in the [npmjs repository (filterinput)](https://www.npmjs.com/package/filterinput), so you can easily install it with:
+
 ```
 npm i filterinput
 ```
