@@ -58,6 +58,8 @@ currently , only work on `<input>` tag.
 - [ ] !String (a string , not empty)
 - [ ] Alphabet (english,farsi:persian,arabic,china,...)
 - [ ] !Alphabet (english,farsi:persian,arabic,china,...) not empty!
+- [ ] Alphabet0 (may be have number characters)
+- [ ] !Alphabet0 (may be have number characters) not empty!
 - [ ] Any (any char or empty)
 - [ ] !Any (any char , not empty)
 
