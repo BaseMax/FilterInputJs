@@ -64,17 +64,9 @@ currently , only work on `<input>` tag.
 ## Data Filter Languages
 
 - [ ] english
-- [ ] !english (not empty)
-- [ ] english0 (with number)
-- [ ] !english0 (with number, not empty)
 - [ ] persian
-- [ ] !persian (not empty)
-- [ ] persian0 (with number)
-- [ ] !persian0 (with number, not empty)
 - [ ] arabic
-- [ ] !arabic (not empty)
-- [ ] arabic0 (with number)
-- [ ] !arabic0 (with number, not empty)
+- [ ] all
 
 You can discuss or send a request at [here](https://github.com/BaseMax/FilterInputJs/issues/4).
 
