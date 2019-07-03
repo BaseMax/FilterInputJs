@@ -33,19 +33,6 @@ npm i filterinput
 - No dependencies
 - Easy using Filters
 
-## Filters
-
-- [x] Decimal
-- [x] !Decimal (a decimal , not empty)
-- [x] Integer
-- [x] !Integer (a integer , not empty)
-- [ ] String (any character , no number)
-- [ ] !String (a string , not empty)
-- [ ] Alphabet (english,farsi:persian,arabic,china,...)
-- [ ] !Alphabet (english,farsi:persian,arabic,china,...) not empty!
-- [ ] Any (any char or empty)
-- [ ] !Any (any char , not empty)
-
 ## Supported Tags
 
 currently , only work on `<input>` tag.
@@ -60,6 +47,38 @@ currently , only work on `<input>` tag.
 | ---------------- | ------------------------------------ |
 | data-filter      | Set type of Filter for a <input> tag |
 | data-filter-lang | Restrict allowed languages (soon)    |
+
+## Data Filters
+
+- [x] Decimal
+- [x] !Decimal (a decimal , not empty)
+- [x] Integer
+- [x] !Integer (a integer , not empty)
+- [ ] String (any character , no number)
+- [ ] !String (a string , not empty)
+- [ ] Alphabet (english,farsi:persian,arabic,china,...)
+- [ ] !Alphabet (english,farsi:persian,arabic,china,...) not empty!
+- [ ] Any (any char or empty)
+- [ ] !Any (any char , not empty)
+
+## Data Filter Languages
+
+- [ ] english
+- [ ] !english (not empty)
+- [ ] english0 (with number)
+- [ ] !english0 (with number, not empty)
+
+- [ ] persian
+- [ ] !persian (not empty)
+- [ ] persian0 (with number)
+- [ ] !persian0 (with number, not empty)
+
+- [ ] arabic
+- [ ] !arabic (not empty)
+- [ ] arabic0 (with number)
+- [ ] !arabic0 (with number, not empty)
+
+You can discuss or send a request at [here](https://github.com/BaseMax/FilterInputJs/issues/4).
 
 ## Samples
 
