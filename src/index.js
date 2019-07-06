@@ -3,7 +3,7 @@
  * @Name : FilterInput.js
  * @Version : 1.1
  * @Programmer : Max
- * @Date : 2018-06-27-2018-07-02
+ * @Date : 2018-06-27-2018-07-02, 2019-07-02
  * @Released under : https://github.com/BaseMax/FilterInputJs/blob/master/LICENSE
  * @Repository : https://github.com/BaseMax/FilterInputJs
  *
