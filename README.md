@@ -18,6 +18,8 @@ Add the following line to your `.html` file:
 
 or download the [minified file](https://raw.githubusercontent.com/BaseMax/FilterInputJs/master/dist/index.min.js)
 
+or use: `https://cdn.jsdelivr.net/npm/filterinput@1.0.0/src/index.min.js`
+
 ## Install
 
 This package available in the [npmjs repository (filterinput)](https://www.npmjs.com/package/filterinput), so you can easily install it with:
