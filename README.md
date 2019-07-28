@@ -1,5 +1,7 @@
 # Filter Input
 
+## FilterInputJs
+
 <p align="center">
   <img alt="FilterInput" src="https://raw.githubusercontent.com/BaseMax/FilterInputJs/master/image.jpg">
 </p>
