@@ -29,6 +29,12 @@
       }
     }
 
+    function add_trailing_zeroes() {
+      if (this.value && this.value.indexOf('.') === -1) {
+        this.value += '.00';
+      }
+    }
+
     function exec_integer(event) {
       this.value = this.value.replace(/[^\d].+/, "");
       if (event.which < 48 || event.which > 57) {
@@ -61,7 +67,7 @@
       switch (filter) {
         case "decimal":
           if (tag == "input") {
-            element.addEventListener("blur", exec_decimal);
+            element.addEventListener("blur", add_trailing_zeroes);
             element.addEventListener("keypress", exec_decimal);
             element.addEventListener("keyup", exec_decimal);
             element.setAttribute("type", "number");
